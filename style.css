@@ -1,0 +1,111 @@
+body{
+    height:100%;
+    width:100%;
+    background-color:lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wholepage {
+    position: relative;
+    min-height: 100vh;
+}
+.header {
+    margin-top:0;
+    width:80%;
+    height:130px;
+}
+.welcome{
+    margin-top:15px;
+    margin-left:35%;
+    font-size:large;
+}
+.logo {
+    float:left;
+    margin-left:60px;
+}
+
+.sidebar{
+    position:absolute;
+    height:70%;
+    margin-left:25px;
+    font-size:large;
+    text-align:left;
+    border-right:black 2px double;
+}
+
+
+.content{
+    position: absolute;
+    margin-left:250px;
+    margin-right:100px;
+    margin-top:50px;
+    text-align:justify;
+    font-size:small;
+    padding-bottom:25px;
+}
+.ottervideo video{
+    margin-left:20%;
+}
+
+
+#carouselExample{
+    margin-top: -40%;
+    margin-left: 400px;
+    
+}
+.pics{
+    width: 600px;
+}
+.carousel-inner{
+    position: relative;
+    left: 20vw;
+    top: 10vw;
+    max-width: 700px;
+    margin-left: -250px;
+    margin-top: -550px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    right: 17vw;
+    top: 20vh;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    left: -3vw;
+    top: 20vh;
+}
+
+.contactform {
+    margin-left:25%;
+    text-align:left;
+    width:600px;
+    position:absolute;
+    border-radius: 5px;
+    padding: 20px;
+    font-size:small;
+}
+input[type=text], select, textarea {
+    border: 2px solid lightblue;
+    box-sizing: border-box;
+    margin-bottom:35px;
+    resize: horizontal;
+}
+  
+input[type=submit] {
+   background-color: lightgray;
+   color: gray;
+   padding: 12px 20px;
+   border: gray linear;
+   border-radius: 10px;
+   cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background-color: darkslategray;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 20%;
+}

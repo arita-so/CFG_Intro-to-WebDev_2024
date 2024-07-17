@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5939a058cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="wholepage">
+        <header class="header">
+            <div class="logo">
+                <img src="https://cdn.pixabay.com/photo/2024/06/18/00/04/cat-8836735_960_720.png" height="120" width="80">
+            </div>
+            <div class="welcome">
+                    <h1>Welcome to this page</h1>    
+            </div>
+        </header>
+        <div class="searchbar">
+            <i class="fa-solid fa-dog"></i>
+            <input type="text" placeholder="Search this page">
+            <i class="fa-solid fa-cat"></i>
+        </div>
+        <div class="sidebar">
+            <a href="index.html" target="_blank">Welcome page</a>&nbsp; &nbsp; &nbsp;
+            <br>
+            <br>
+            <a href="aboutUs.html" target="_blank">About us</a>
+            <br>
+            <br>
+            <a href="cats.html" target="_blank">Cats</a>
+            <br>
+            <br>
+            <a href="dogs.html" target="_blank">Dogs</a>
+            <br>
+            <br>
+            <a href="contact.html" target="_blank">Contact us</a>
+        </div>
+        <div class="contactform">
+            <form action="action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Please type in your name">
+                <br>
+                <label for="email">Email address</label>
+                <input type="text" id="email" name="email" placeholder="Please type in your email">
+                <br>
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option value="vet">Help find a vet</option>
+                  <option value="pet">Adopt a pet</option>
+                  <option value="animals">Information about domestic animals</option>
+                </select>
+                <br>
+                <label for="subject">Subject</label>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Please give more information about your request..." style="height:200px"></textarea>
+                <br>
+                <input type="submit" value="Submit"> 
+            </form>
+        </div>  
+    </div>
+    <footer class="footer">
+        <p>© CFG Web development 2024</p>
+    </footer>
+</body>
+</html>
