@@ -1,8 +1,11 @@
-# CFG_Intro-to-Web-Dev-by-TUI_2024
+# CFG_Intro to Web Dev by TUI_2024
 
 https://codefirstgirls.com/
 
-https://codefirstgirls.com/courses/coding-kickstarter/ ---> No longer available as a coding kickstarter class (8 weeks), only available in MOOC (4 weeks). 
+---> No longer available as a coding kickstarter class (8 weeks), only available in MOOC (4 weeks). <--- 
+
+https://codefirstgirls.com/courses/coding-kickstarter/ 
+
 https://codefirstgirls.com/courses/moocs/
 
 INTRO TO WEB DEVELOPMENT - "Where the online world dominates every aspect of our lives, having the skills to create and maintain captivating websites is more essential than ever. 
